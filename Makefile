@@ -1,6 +1,6 @@
 APP				?= crl
 APP_VERSION		?= 0.0.0
-SERVER_ENTRY	?= main.go
+SERVER_ENTRY	?= server/main.go
 SERVER_BIN		?= bin/$(APP)
 API_VERSION		?= 0
 PROTO_DIR		?= api/v$(API_VERSION)
